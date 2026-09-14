@@ -1,0 +1,24 @@
+{
+  "position": "bottom",
+  "layer": "top",
+  "height": 54,
+  "spacing": 6,
+  "modules-left": ["custom/launcher", "hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["network", "pulseaudio", "battery", "tray"],
+  "custom/launcher": {
+    "format": "<span color='#6ee7b7'></span>",
+    "tooltip": false,
+    "on-click": "nwg-drawer"
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": { "default": "", "active": "" },
+    "persistent-workspaces": { "*": 5 }
+  },
+  "clock": { "format": "<b>%a %b %d</b>  %H:%M" },
+  "network": { "format-wifi": "  {essid}", "format-ethernet": "󰈀  wired", "format-disconnected": "󰤭  offline" },
+  "pulseaudio": { "format": "{icon} {volume}%", "format-muted": "󰖁 muted", "format-icons": ["", "", ""] },
+  "battery": { "format": "{icon} {capacity}%", "format-icons": ["󰂎", "󰁺", "󰁹"] },
+  "tray": { "spacing": 8 }
+}

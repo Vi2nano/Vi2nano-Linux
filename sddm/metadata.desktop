@@ -1,0 +1,9 @@
+[SddmGreeterTheme]
+Name=Vi2nano
+Description=Vi2nano Linux login theme
+Author=Vi2nano
+License=MIT
+Type=sddm-theme
+Version=1.0
+MainScript=Main.qml
+ConfigFile=theme.conf
