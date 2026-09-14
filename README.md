@@ -1,6 +1,6 @@
 # Vi2nano Linux
 
-A personal Arch Linux desktop build for AMD-first Wayland systems with NVIDIA support.
+A personal Arch Linux desktop installer for AMD-first Wayland systems with NVIDIA support.
 
 ## Profile
 
